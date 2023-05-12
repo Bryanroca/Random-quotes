@@ -1,0 +1,135 @@
+#app{
+    display: flex;
+    width: 60%;
+    justify-content: end;
+    align-items: center;
+    background-color: red;
+}
+#boton{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+a{
+    position: absolute;
+    width: 66px;
+    height: 22px;
+    left: 1247px;
+    top: 31px;
+    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 120%;
+    text-decoration: none;
+}
+a:link {
+    color: black;
+  }
+  
+  a:visited {
+    color: black;
+  }
+
+#notas {
+    position: absolute;
+    width: 614px;
+    height: 301px;
+    left: 416px;
+    top: 280px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 120%;
+    /* or 43px */
+
+
+    color: #000000;
+}
+
+#columna {
+    position: absolute;
+    width: 8px;
+    height: 301px;
+    left: 309px;
+    top: 280px;
+
+    background: #F7DF94;
+}
+
+#autor {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    left: 50px;
+
+    color: #4F4F4F;
+}
+
+#container {
+    position: absolute;
+    align-items: start;
+    width: 590px;
+    height: auto;
+    left: 416px;
+    top: 640px;
+    transition: all 0.2s ease-in-out;
+    white-space: nowrap; /* previene saltos de línea */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+
+}
+#container-flecha{
+    display: flex;
+    align-items: center;
+    left: 20px;
+}
+
+
+
+#container h2 {
+    font-size: 90%; /* ajusta tamaño de fuente */
+}
+
+#container:hover {
+    background-color: #000000;
+    color: white;
+    cursor: pointer;
+}
+
+#container:hover h2 {
+    font-family: 'Raleway';
+    font-size: 20px;
+    color: #F2F2F2;
+}
+
+#container:hover h2{
+    position: relative;
+    left : 20px
+}
+
+#container:hover #flecha {
+    opacity: 1;
+}
+
+#flecha {
+    position: absolute;
+    overflow: hidden;
+    opacity: 0;
+    right: 20px;
+}
+
+#genero {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    color: #828282;
+}
